@@ -2,10 +2,9 @@
     text-transform: capitalize;
 }
 body {
-    width:100%100%;
     width: auto;
-    
 }
+
 /* head */
 header {
     background-color: #73C6F0;
@@ -13,13 +12,12 @@ header {
     padding-top: 20px;
     margin-top: -20px;
     margin-left: -20px;
-    width: 1035px;
+    width: auto;
 }
 .as {
     margin-left: 100px;
     text-decoration: none;
     color: black;
-    margin-top: 50px;
 }
 .as:hover {
     color: #32497a;
@@ -35,34 +33,41 @@ header {
     cursor: pointer ;
 }
 /* main */
+main { margin-left: -10px;}
 /* image with text */
 .imt {
     background-image: url("https://github.com/shadyelsawy20/products-site/blob/main/mountain.jpg?raw=true");
-    background-size: 100%100%;
+    background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    width: 1026px;
     height: 500px;
-    margin-left: -10px;
-    margin-top: -25px;
+
 }
 .ht {
-    
     margin-top: 80px;
-    margin-left: 360px;
+    margin-left:auto;
+    margin-right:auto;
     font-size: 36px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 340px;
 }
 .bti {
-    margin-left: 440px;
+    position: absolute;
+    left: 46%;
     height: 40px;
     background-color: #FF3F00;
     border: #FF3F00 1px solid;
     color: white;
     cursor: pointer;
 }
+.bti:hover {
+    background-color: #D13200;
+    border: #D13200 1px solid;
+}
 /* information */
+.bg{
+    background-color: #32497a;
+}
 .buw {
     margin-left: 40px;
 }
@@ -80,15 +85,13 @@ header {
 /* icons */
 .all {
     margin-left: -5px;
-    width: 1000px;
-    display: inline;
+    display: flex;
+    justify-content: space-around;
 }
 .uwb {
     border: solid 2px black;
     width: 260px;
     height: 250px;
-    margin-left: 50px;
-    display: inline-block;
 }
 .fu {
     color: #FF3F00;
@@ -96,10 +99,7 @@ header {
     margin-top: 10px;
     margin-left: 110px;
 }
-.hum {
-    text-align: center;
-}
-.hus {
+.hum, .hus {
     text-align: center;
     margin-left: 15px;
 }
@@ -109,41 +109,27 @@ header {
 /* products */
 .pa {
     background-image: url("https://github.com/shadyelsawy20/products-site/blob/main/it-products.jpg?raw=true");
-    background-size: 100%100%;
+    background-size: cover;
+    height: 600px;
+    margin-top: 50px;
 }
 .products {
-    background-color: #000000b0;
-    width: 250px;
-    height: 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 200px;
+    height: 600px;
+    margin:0px; 
+    float: left;
+    padding-right: 20px
 }
 .pp {
     padding-left: 20px;
-    padding-top: 180px;
     color: white;
-    font-size: 20px;
+    font-size: 32px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .pps {
-    padding-left: 35px;
+    padding-left: 20px;
     color: white; 
-    font-size: 15px;           
-    margin-top: -8px;
+    font-size: 18px;           
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
